@@ -13,7 +13,7 @@ public class Tests extends SamplePoSTest {
     @Test
     public void openSamplePoS() throws InterruptedException {
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         //Scroll and Select QA 13 Environment
         driver.findElement(MobileBy.AndroidUIAutomator(
